@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cocktaillwine">
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
    <application
         android:label="cocktaillwine"
         android:name="${applicationName}"

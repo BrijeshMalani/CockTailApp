@@ -22,6 +22,7 @@ class _Bottom_nav_barState extends State<Bottom_nav_bar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       body: _widgetOptions[selector],
       bottomNavigationBar: Stack(children: [
         ClipRRect(
